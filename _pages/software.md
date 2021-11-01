@@ -10,39 +10,43 @@ header:
   og_image: "software/spatial_weighting.png"
 ---
 
-## [Drone Navigation](pages/publications.md)
+# [Drone Navigation]
 
 I developed a ROS navigation stack for an Autonomous drone using RotorS Simulator. Major focus of this project was on implementing RRT (Rapidly exploring Random Trees) in a 3D unmapped environment. To percieve the environment, I used Point Cloud data from the Depth Camera and processed it using Point Cloud Library.
 
 {% include gallery %}
 
+Take a look at the [post]() accompanying the project to know the exact details of the project.
 
-# RWmisc
+# Gennav
 
-[![R build status](https://github.com/jayrobwilliams/RWmisc/workflows/R-CMD-check/badge.svg)](https://github.com/jayrobwilliams/RWmisc/actions)
-[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/RWmisc)](https://CRAN.R-project.org/package=RWmisc)
-[![codecov](https://codecov.io/gh/jayrobwilliams/RWmisc/branch/master/graph/badge.svg)](https://codecov.io/gh/jayrobwilliams/RWmisc)
+Gennav is a python package intended to serve as a one stop destination of navigation algorithms. This was developed as a part of a club project. We divided the package into `planners`, `controllers`, `envs` and `utils`.
 
-I've collected convenience functions that I've written to address issues I frequently confront in my work into a personal R package called [RWmisc](https://CRAN.R-project.org/package=RWmisc). It includes functions for:
+- `planners` : Contains Path Planning algorithms. It is further divided into
+  - `potential_field`
+  - `prm`
+  - `rrt`
+- `controllers` : Contains controllers for omniwheel drive robot and a differential drive robot
+- `envs` : Contains environments that facilitate effective collision checking.
+- `utils` : Contains some utility functions and classes
 
-- Managing multiple different projections for cross-national spatial data
-- Converting latitude-longitude data in archaic forms (degrees, minutes, seconds)
-- Correcting for overlapping polygons when aggregating raster data to polygons
-- My custom minimal ggplot2 theme
+The project was further extended to construct a ROS Wrapper on top of Gennav, called `gennav_ros`.
 
-![](/images/software/spatial_weighting.png)
+### Links
+- [gennav](https://github.com/ERC-BPGC/gennav)
+- [gennav_ros](https://github.com/ERC-BPGC/gennav_ros)
+- [Documentation](https://gennav.readthedocs.io/en/latest/index.html)
 
-To install the latest release on CRAN:
-
-```r
-install.packages("RWmisc")
+To install `gennav`
+- From source
+```bash
+git clone https://github.com/ERC-BPGC/gennav.git
+cd gennav
+python -m pip install .
 ```
-
-The latest [development version](https://github.com/jayrobwilliams/RWmisc) on GitHub can be installed with:
-
-```r
-library(remotes)
-install_github("jayrobwilliams/RWmisc")
+- Using pip
+```bash
+python -m pip install gennav
 ```
 
 # Other resources
