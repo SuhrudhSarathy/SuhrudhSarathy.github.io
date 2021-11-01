@@ -14,7 +14,7 @@ I am currently interning with [Ottonomy](https://www.ottonomy.io) where I am wor
 
 I also am the __President__ of [Center for Techincal Education](https://twitter.com/CTEBPGC), BITS Goa. I lead a motivated team of 30+ people and conduct courses, workshops, events for the students of BITS Goa. I am also a part of __Electronics and Robotics Club__ and the __Aerodynamics Club__ of BITS Goa.
 
-Here are my [projects]() that I did, my [teaching]() experience and my [CV]()
+Here are my [projects](https://suhrudhsarathy.github.io/projects/) that I did, my [teaching](https://suhrudhsarathy.github.io/teaching/) experience and my [CV](https://suhrudhsarathy.github.io/exp/)
 
 ## News
 - __3-09-2021__   :   Started Internship in Ottonomy
