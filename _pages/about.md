@@ -16,3 +16,7 @@ I also am the __President__ of [Center for Techincal Education](https://twitter.
 
 Here are my [projects]() that I did, my [teaching]() experience and my [CV]()
 
+## News
+- __3-09-2021__   :   Started Internship in Ottonomy
+- __31-07-2021__  :   Ended Summer Internship with Peppermint
+- __31-05-2021__  :   Started Summer Internship with Peppermint
