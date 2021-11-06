@@ -53,6 +53,4 @@ python -m pip install gennav
 # Trotbot
 Trotbot is an indoor autonomous Robot that is capable of autonomously traversing between waypoints avoiding obstacles. It uses a 2D-Lidar for localisation and obstacle avoidance. It is omnidirectional and hence can move more freely in constrained indoor environments.
 
-<img src="images/software/trotbot.jpg" alt="trobot" style="height: 100px; width:100px;"/>
-
 <!-- add forest project-->
