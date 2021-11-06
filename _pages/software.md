@@ -15,7 +15,7 @@ These are some of the projects that I have been a part of. All my projects can b
 
 I developed a ROS navigation stack for an Autonomous drone using RotorS Simulator. Major focus of this project was on implementing RRT (Rapidly exploring Random Trees) in a 3D unmapped environment. To percieve the environment, I used Point Cloud data from the Depth Camera and processed it using Point Cloud Library.
 
-{% include drone %}
+{% include gallery %}
 
 Take a look at the [post]() accompanying the project to know the exact details of the project.
 
