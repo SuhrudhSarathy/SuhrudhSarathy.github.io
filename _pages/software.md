@@ -55,7 +55,7 @@ python -m pip install gennav
 Trotbot is a robot designed to serve as a delivery robot in an indoor environment. The deliverables will be placed inside the container. It will be able to autonomously navigate around obstacles and reach waypoints set in and around its environment. Identification tags will be used by the Bot to locate the rooms and localize itself.
 
 <p align="center">
-  <img src="/images/software/trotbot.jpg" alt="MarineGEO circle logo" style="height: 400px; width:300px;"/>
+  <img src="/images/software/trotbot.jpg" alt="MarineGEO circle logo" style="height: 300px; width:500px;"/>
 </p>
 
 Since we were stuck at home due to the pandemic, [Omnibase](https://github.com/ERC-BPGC/omnibase) was released to test our algorithms in simulation.
