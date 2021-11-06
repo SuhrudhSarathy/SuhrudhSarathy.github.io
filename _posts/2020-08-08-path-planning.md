@@ -3,7 +3,7 @@ title: Path Planning in Autonomous Robots
 date: 2020-08-08
 permalink: /posts/2020/08-path-planning
 excerpt_separator: <!--more-->
-toc: true
+toc: false
 tags:
   - Path Planning
   - Robotics
@@ -99,11 +99,6 @@ $$
 $$
 	Dist(X, Y) = \min{(\lvert X_n - Y_n \rvert}, \lvert\ 2\pi - \lvert X_n - Y_n \rvert \rvert) 
 $$
-
-### References
-1. Refer [this](https://medium.com/@theclassytim/robotic-path-planning-rrt-and-rrt-212319121378) article for more information about RRT and RRT*
-2. A [video](https://www.youtube.com/watch?v=xAmN8WnltRY) explaining RRT algorithm.
-3. Refer to the paper [here](http://msl.cs.illinois.edu/~lavalle/papers/Lav98c.pdf)
 
 
 <!-------------Break------------->
@@ -221,3 +216,6 @@ f-value = g-value + Hueristic value of the node
 5. Video explainig A-star can be found [here](https://www.youtube.com/watch?v=5n8OtzqVOyg)
 6. Psuedo Code for Dijkstra's Algorithm can be found [here](http://www.gitta.info/Accessibiliti/en/html/Dijkstra_learningObject1.html)
 7. A video explaining Dijkstra's Algorithm can be found [here](https://www.youtube.com/watch?v=GazC3A4OQTE)
+8. Refer [this](https://medium.com/@theclassytim/robotic-path-planning-rrt-and-rrt-212319121378) article for more information about RRT and RRT*
+9. A [video](https://www.youtube.com/watch?v=xAmN8WnltRY) explaining RRT algorithm.
+10. Refer to the paper [here](http://msl.cs.illinois.edu/~lavalle/papers/Lav98c.pdf)
