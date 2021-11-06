@@ -9,7 +9,7 @@ gallery:
 header:
   og_image: "software/spatial_weighting.png"
 ---
-These are some of the projects that I have been a part of. All my projects can be found cd[here](https://github.com/SuhrudhSarathy)
+These are some of the projects that I have been a part of. All my projects can be found [here](https://github.com/SuhrudhSarathy)
 
 # Drone Navigation
 
@@ -50,6 +50,16 @@ python -m pip install .
 python -m pip install gennav
 ```
 <!--add trotbot-->
-<img src="/images/software/trotbot.jpg" alt="MarineGEO circle logo" style="height: 100px; width:100px;"/>
+# Trotbot
+Trotbot is a robot designed to serve as a delivery robot in an indoor environment. The deliverables will be placed inside the container. It will be able to autonomously navigate around obstacles and reach waypoints set in and around its environment. Identification tags will be used by the Bot to locate the rooms and localize itself.
+
+<p align="center">
+  <img src="/images/software/trotbot.jpg" alt="MarineGEO circle logo" style="height: 100px; width:100px;"/>
+</p>
+
+Since we were stuck at home due to the pandemic, [Omnibase](https://github.com/ERC-BPGC/omnibase) was released to test our algorithms in simulation.
+
+### Links
+- [Code](https://github.com/ERC-BPGC/Trotbot)
 
 <!-- ![](/images/software/trotbot.jpg) -->
