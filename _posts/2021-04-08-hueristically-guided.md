@@ -1,7 +1,8 @@
 ---
 title: Heuristically guided Sampling based Path Planning
 date: 2021-04-08
-permalink: https://erc-bpgc.github.io/blog/blog/heuristically_guided_sampling_based_path_planning/
+permalink: heuristically_guided_sampling_based_path_planning/
+redirect: https://erc-bpgc.github.io/blog/blog/heuristically_guided_sampling_based_path_planning/
 excerpt_separator: <!--more-->
 toc: false
 tags:
