@@ -8,11 +8,7 @@ tags:
   - Path Planning
   - Robotics
 ---
-# What is a path?
-Path, as the name suggests is a set of waypoints which a Robot is expected to travel. There can be many criterions for deciding a path that the Robot should follow. Various optimisations, checks are made before deciding an optimial path.
-
-# Why Planning is important for Autonomous Robots?
-Path planning is one of the most important primitives for autonomous mobile robots. The ability to be able to travel on its own by finding a collision free, optimal path is an important aspect of making robots autonomous
+Path planning is one of the most important primitives for autonomous mobile robots. The ability to be able to travel on its own by finding a collision free, optimal path is an important aspect of making robots autonomous. Path, as the name suggests is a set of waypoints which a Robot is expected to travel. There can be many criterions for deciding a path that the Robot should follow. Various optimisations, checks are made before deciding an optimial path.
 
 # Path planning for Autonomous Robots
 Path planning, as illustrated above is an important aspect of autonomous robots. There are various methods how a path is planned. There are various algorithms on path planning. Some of the common features of path planners are:
