@@ -50,5 +50,6 @@ python -m pip install .
 python -m pip install gennav
 ```
 <!--add trotbot-->
+<img src="/images/software/trotbot.jpg" alt="MarineGEO circle logo" style="height: 100px; width:100px;"/>
 
-![](/images/software/trotbot.jpg)
+<!-- ![](/images/software/trotbot.jpg) -->
