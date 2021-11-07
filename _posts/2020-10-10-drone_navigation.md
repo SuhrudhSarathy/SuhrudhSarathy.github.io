@@ -101,4 +101,48 @@ if(octree.radiusSearch(searchPoint, radius, idx, distances) > 0){
 ## Voxblox
 [Voxblox](https://github.com/ethz-asl/voxblox) is a voxel-based volumetric mapping library. It uses Truncated Distance Fields and Euclidean Distance Fields to build maps. It has tight ROS integration and can be run on CPU only. I used Voxblox to perform collision checks. The [section](https://voxblox.readthedocs.io/en/latest/pages/Using-Voxblox-for-Planning.html) on using Voxblox for Planning is very useful.
 <!--Planner-->
-<!--Post Processing-->
+
+# Planning
+The main aim of the project was to write a 3D Planner in Indoor Environments. I decided to go through with a Sampling based Algorithm and post processing using [mav_trajectory_generation](https://github.com/ethz-asl/mav_trajectory_generation) from ASL-ETHZ.
+## Sampling based Planner
+- I used RRT to generate samples in 3D withing ranges of +/- 2m from the Drones current altitude. This increased the probability of a solution. The algorithm was biased to sample the goal every `x` out of 10 samples.
+- Since the algorithm is not optimal and is known to produce paths that are not trackable by a drone without any processing, a LOS Optimiser was used before the path was optimised for Drones. The Post Processing Pipeline is given below
+
+# Post Processing
+As mentioned, the path geneated by RRT is not continous. Hence post processing of the Path is necessary to use it for UAV. The path was first processed by an `Line of Sight` optimiser and further sent to `mav_trajectory_generation`
+## Line of Sight Optimiser
+Line of Sight optimiser aims to construct straight collision free paths between the intermediate Points in the Path.
+```python
+current_index = 0
+while current_index < len(path) - 1:
+    ind_updated = False
+    for ind2 in range(len(path) - 1, current_index, -1):
+        if not collision(path[current_index].pose.position, path[ind2].pose.position):
+            optimised_path.append(path[ind2])
+            current_index = ind2
+            ind_updated = True
+            break
+    if not ind_updated:
+        return optimised_path
+```
+## MAV Trajectory Generation
+- This repository contains Polynomial Trajectory Generation and Optimisation methods for Path Generation. The [repository](https://github.com/ethz-asl/mav_trajectory_generation#basics) has a good documentation to get started.
+- I used Non Linear Optimisation to generate smooth Trajectory for the UAV
+```c++
+mav_trajectory_generation::PolynomialOptimizationNonLinear<N> opt(dimension, params);
+
+opt.setupFromvertices(vertices, segment_times, derv);
+
+opt.addMaximumMagnitudeConstraint(mav_trajectory_generation::derivative_order::VELOCITY, v_max);
+opt.addMaximumMagnitudeConstraint(mav_trajectory_generation::derivative_order::ACCELERATION, a_max);
+
+opt.optimize();
+
+mav_trajectory_generation::Trajectory mav_trajectory;
+
+opt.getTrajectory(&mav_trajectory);
+```
+For more information, refer to the source [code](https://github.com/SuhrudhSarathy/drone_navigation/blob/version/pcl_only/src/trajectory_optimiser_external.cpp)
+
+# Conclusion
+This ended my project on Autonomous Navigation using Gazebo. There were a lot of concepts (`Control`, `State Estimation`, `Computational Requirements`, `Noise from real Hardware`) assumed in this project. In the future, I aim to learn more about the concepts behind the algorithms and implement the project on real hardware.
