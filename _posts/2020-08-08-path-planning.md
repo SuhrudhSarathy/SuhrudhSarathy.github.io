@@ -164,6 +164,7 @@ A-star is a graph-based, path search algorithm. It is used in many fields of com
 
 Where $x_n$, $y_n$ and $x_g$, $y_g$ are the $x$, $y$ coordinates of a the node and the goal respectively.
 ### Psuedo Code for the Algorithm
+Here is the most basic version of A-Star search algorithm.
 ```python
 def Astar(start, goal, graph):
     # Set the g, f values for all nodes in the graph
@@ -189,8 +190,8 @@ def Astar(start, goal, graph):
             break
         # Update parameters for adjacent nodes
         for adjacent_node in CURRENT.adjacent_nodes:
-            if adjacent_node.g > CURRENT.g + cost of edge from n to current:
-                adjacent_node.g = CURRENT.g + cost of edge from n to current
+            if adjacent_node.f > CURRENT.g + cost of edge from CURRENT to adjacent_node:
+                adjacent_node.g = CURRENT.g + cost of edge from CURRENT to adjacent_node
                 adjacent_node.f = adjacent_node.g + H(node)
                 adjacent_node.parent = CURRENT
 
