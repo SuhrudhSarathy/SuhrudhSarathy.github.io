@@ -3,7 +3,7 @@ title: Autonomous Drone Navigation
 date: 2020-08-08
 permalink: /posts/2020/10-auto-drone-nav
 excerpt_separator: <!--more-->
-toc: false
+toc: true
 tags:
   - Drone
   - Robotics
@@ -35,8 +35,9 @@ This launches the drone in an empty world. To change the world, you can pass the
 
 # Perception
 The VI Sensor on board publishes Point Cloud Data as `sensor_msgs/PointCloud2` message type. To perform collision checking, I tried two methods:
-1. ## Point Cloud Library (PCL)
+## Point Cloud Library (PCL)
 I used the Point Cloud Library to `filter`, `transform` and perform `search` of the Point Cloud.
+
 ### Filtering
 The Point Cloud data that was published was very dense and noisy. So I applied `Pass Through Filter` and `Voxel Grid Filter` to reduce the distance and density of the incoming Point Cloud.
 
@@ -97,7 +98,7 @@ if(octree.radiusSearch(searchPoint, radius, idx, distances) > 0){
 2. [Pass Through Filter](https://pointclouds.org/documentation/tutorials/passthrough.html)
 3. [Octree Point Cloud Search](https://pointclouds.org/documentation/classpcl_1_1octree_1_1_octree_point_cloud_search.html)
 
-2. ## Voxblox
+## Voxblox
 [Voxblox](https://github.com/ethz-asl/voxblox) is a voxel-based volumetric mapping library. It uses Truncated Distance Fields and Euclidean Distance Fields to build maps. It has tight ROS integration and can be run on CPU only. I used Voxblox to perform collision checks. The [section](https://voxblox.readthedocs.io/en/latest/pages/Using-Voxblox-for-Planning.html) on using Voxblox for Planning is very useful.
 <!--Planner-->
 <!--Post Processing-->
