@@ -36,9 +36,10 @@ This launches the drone in an empty world. To change the world, you can pass the
 # Perception
 The VI Sensor on board publishes Point Cloud Data as `sensor_msgs/PointCloud2` message type. To perform collision checking, I tried two methods:
 1. ## Point Cloud Library (PCL)
-I used the Point Cloud Library to `filter`, `transform` and perform `search` of the Point Cloud. \
+I used the Point Cloud Library to `filter`, `transform` and perform `search` of the Point Cloud.
 ### Filtering
 The Point Cloud data that was published was very dense and noisy. So I applied `Pass Through Filter` and `Voxel Grid Filter` to reduce the distance and density of the incoming Point Cloud.
+
 ```c++
 // Pass Through Filter
 pcl::PassThrough<pcl::PointXYZ> pass;
@@ -54,8 +55,10 @@ sor.setInputCloud(cloud_pt);
 sor.setLeafSize(0.05, 0.05, 0.05);
 sor.filter(*cloud_voxel);
 ```
+
 ### Transformation
 The incoming Point Cloud was in the `vi_sensor` frame. To perform collision checking in the `world` frame, the Point Cloud had to be transformed.
+
 ```c++
 try
 {
@@ -70,8 +73,10 @@ catch(tf2::TransformException &ex)
     ROS_WARN("%s", ex.what());
 }
 ```
+
 ### Search
 To check for collision of any point in space given the Point Cloud data, I used the inbuilt `Octree` representation of Point Cloud to check if the queried point was surrounded by any Points. 
+
 ```c++
 pcl::octree::OctreePointCloudSearch<pcl::PointXYZ> octree(resolution);
 octree.setInputCloud(cloud);
@@ -86,6 +91,7 @@ if(octree.radiusSearch(searchPoint, radius, idx, distances) > 0){
 		// No collision
 	}
 ``` 
+
 ### PCL References
 1. [Voxel Grid Filter](https://pointclouds.org/documentation/tutorials/voxel_grid.html)
 2. [Pass Through Filter](https://pointclouds.org/documentation/tutorials/passthrough.html)
