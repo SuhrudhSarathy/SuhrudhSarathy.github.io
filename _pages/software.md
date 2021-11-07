@@ -17,7 +17,7 @@ I developed a ROS navigation stack for an Autonomous drone using RotorS Simulato
 
 {% include gallery %}
 
-Take a look at the [post](_posts/2020-10-10-drone_navigation.md) accompanying the project to know the exact details of the project.
+Take a look at the [post](/_posts/2020-10-10-drone_navigation.md) accompanying the project to know the exact details of the project.
 
 # Gennav
 
