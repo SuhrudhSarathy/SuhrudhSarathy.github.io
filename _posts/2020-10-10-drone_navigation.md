@@ -11,6 +11,8 @@ tags:
 <!-- Introduction to the Project-->
 During the pandemic, I was at home without any access to any physical robots. It was the perfect time to put into practise the concepts of Robotics that I learnt in the summer. I got quite intriguied by Autonomous drones. My greatest inspirations came after watching [this](https://www.youtube.com/watch?v=8RILnqPxo1s) video on __Deep Drone Racing__ by the _Robotics and Perception group_ at UZH and a bunch of really cool [work](https://www.youtube.com/playlist?list=PLu70ME0whad8hdnmNtTlttJrQcGk95udj) by the _Autonomous Robots Lab_ at NTNU. Taking inspiration, I wanted to try out working with Indoor Navigation of Autonomous Drones.
 
+<!--more-->
+
 # Simulator
 I was in search of a simulator to work on Drones. I found [rotors_simulator](https://github.com/ethz-asl/rotors_simulator) from ETHZ-ASL. Unfortunately, it was hard to install it on Ubuntu 18.04 with Gazebo 9. So I installed [CrazyS](https://github.com/gsilano/CrazyS), an extension of RotorS. This repository has proper instructions for installation in Ubuntu 18.04 and with Gazebo 9.
 
@@ -89,8 +91,7 @@ if(octree.radiusSearch(searchPoint, radius, idx, distances) > 0){
 2. [Pass Through Filter](https://pointclouds.org/documentation/tutorials/passthrough.html)
 3. [Octree Point Cloud Search](https://pointclouds.org/documentation/classpcl_1_1octree_1_1_octree_point_cloud_search.html)
 
-2. ## Voxblox 
-<!-- Simulator -->
-<!--Perception pipeline-->
+2. ## Voxblox
+[Voxblox](https://github.com/ethz-asl/voxblox) is a voxel-based volumetric mapping library. It uses Truncated Distance Fields and Euclidean Distance Fields to build maps. It has tight ROS integration and can be run on CPU only. I used Voxblox to perform collision checks. The [section](https://voxblox.readthedocs.io/en/latest/pages/Using-Voxblox-for-Planning.html) on using Voxblox for Planning is very useful.
 <!--Planner-->
 <!--Post Processing-->
