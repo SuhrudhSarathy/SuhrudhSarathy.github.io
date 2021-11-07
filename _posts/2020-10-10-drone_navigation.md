@@ -112,6 +112,7 @@ The main aim of the project was to write a 3D Planner in Indoor Environments. I 
 As mentioned, the path geneated by RRT is not continous. Hence post processing of the Path is necessary to use it for UAV. The path was first processed by an `Line of Sight` optimiser and further sent to `mav_trajectory_generation`
 ## Line of Sight Optimiser
 Line of Sight optimiser aims to construct straight collision free paths between the intermediate Points in the Path.
+
 ```python
 current_index = 0
 while current_index < len(path) - 1:
@@ -128,6 +129,7 @@ while current_index < len(path) - 1:
 ## MAV Trajectory Generation
 - This repository contains Polynomial Trajectory Generation and Optimisation methods for Path Generation. The [repository](https://github.com/ethz-asl/mav_trajectory_generation#basics) has a good documentation to get started.
 - I used Non Linear Optimisation to generate smooth Trajectory for the UAV
+
 ```c++
 mav_trajectory_generation::PolynomialOptimizationNonLinear<N> opt(dimension, params);
 
@@ -142,6 +144,7 @@ mav_trajectory_generation::Trajectory mav_trajectory;
 
 opt.getTrajectory(&mav_trajectory);
 ```
+
 For more information, refer to the source [code](https://github.com/SuhrudhSarathy/drone_navigation/blob/version/pcl_only/src/trajectory_optimiser_external.cpp)
 
 # Conclusion
