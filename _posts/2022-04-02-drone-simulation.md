@@ -11,7 +11,7 @@ tags:
 <!-- Introduction to the post -->
 
 Simulation of robots plays an integral part in Algorithm development in Robotics. It allows you experiment, test and verify your algorithms before using them on real Robots. Simulation of Drones using Gazebo plays the same rule. This post aims to serve as a repository of steps that can be taken to simulate a Drone using Gazebo and communicate with it using ROS and PX4.
-<!--more -->
+<!--more-->
 
 This post talks about Installation of ROS, Gazebo and PX4 ecosystem for Drone Simulation. Other simulation platforms are linked below in the References section. In future (maybe), a ROS package to write controllers and use them might also be added.
 
