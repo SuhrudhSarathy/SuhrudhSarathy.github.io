@@ -4,7 +4,7 @@ date: 2022-04-02
 permalink: /posts/2020/08-path-planning
 excerpt_separator: <!--more-->
 toc: True
-hidden: True
+published: False
 tags:
   - Simulation
   - Robotics
