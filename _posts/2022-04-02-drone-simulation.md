@@ -24,3 +24,18 @@ This post talks about Installation of ROS, Gazebo and PX4 ecosystem for Drone Si
 | 16.04               | Kinetic     | python2        |
 | 18.04               | Melodic     | python2        |
 | 20.04 (Recommended) | Noetic      | python3        |
+
+__Note__: Make sure to follow instructions to the line. Most of the installation issues can be solved by doing this.
+
+2. Install `catkin_tools` from their [official documentation](https://catkin-tools.readthedocs.io/en/latest/installing.html). `catkin_tools` provide useful tools to build ROS Workspaces and can be used instead of `catkin_make`
+
+3. Make a catkin workspace to install all the packages. If you already have a catkin workspace (usually `catkin_ws`) this step can be ignored. (Make sure to replace `mav_ws` to your own workspace name in all the commands of this post).
+
+bash```
+mkdir -p mav_ws/src
+cd mav_ws
+catkin init
+```
+
+After the build process, you need to __source__
+
