@@ -8,6 +8,7 @@ redirect_from:
   - /med
 ---
 
+## Quark Display 2022
 {% include gallery.html folder="images/media" %}
 
 ## Indoor Autonomous Drone
