@@ -56,6 +56,7 @@ Trotbot is a robot designed to serve as a delivery robot in an indoor environmen
 
 <p align="center">
   <img src="/images/software/trotbot.jpg" alt="MarineGEO circle logo" style="height: 300px; width:500px;"/>
+  <img src="/images/software/trotboreal.jpg" alt="Trotbot real" style="height: 300px; width:500px;"/>
 </p>
 
 Since we were stuck at home due to the pandemic, [Omnibase](https://github.com/ERC-BPGC/omnibase) was released to test our algorithms in simulation.
