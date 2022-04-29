@@ -18,7 +18,7 @@ toc: false
 
 .img-container {
   float: left;
-  width: 33.33%;
+  width: 50%;
   padding: 5px;
 }
 
@@ -73,13 +73,6 @@ python -m pip install gennav
 # Trotbot
 Trotbot is a robot designed to serve as a delivery robot in an indoor environment. The deliverables will be placed inside the container. It will be able to autonomously navigate around obstacles and reach waypoints set in and around its environment. Identification tags will be used by the Bot to locate the rooms and localize itself.
 
-<!-- <p align="left">
-  <img src="/images/software/trotbot.jpg" alt="MarineGEO circle logo" style="height: 300px; width:300px;"/>
-</p>
-
-<p align="right">
-  <img src="/images/software/trotbot_real.jpg" alt="Trotbot real" style="height: 300px; width:300px;"/>
-</p> -->
 
 <div class="clearfix">
   <div class="img-container">
