@@ -10,6 +10,25 @@ header:
   og_image: "software/spatial_weighting.png"
 toc: false
 ---
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
 These are some of the projects that I have been a part of. All my projects can be found [here](https://github.com/SuhrudhSarathy)
 
 # Drone Navigation
@@ -54,13 +73,22 @@ python -m pip install gennav
 # Trotbot
 Trotbot is a robot designed to serve as a delivery robot in an indoor environment. The deliverables will be placed inside the container. It will be able to autonomously navigate around obstacles and reach waypoints set in and around its environment. Identification tags will be used by the Bot to locate the rooms and localize itself.
 
-<p align="left">
+<!-- <p align="left">
   <img src="/images/software/trotbot.jpg" alt="MarineGEO circle logo" style="height: 300px; width:300px;"/>
 </p>
 
 <p align="right">
   <img src="/images/software/trotbot_real.jpg" alt="Trotbot real" style="height: 300px; width:300px;"/>
-</p>
+</p> -->
+
+<div class="clearfix">
+  <div class="img-container">
+  <img src="/images/software/trotbot.jpg" alt="Italy" style="width:100%">
+  </div>
+  <div class="img-container">
+  <img src="/images/software/trotbot_real.jpg" alt="Forest" style="width:100%">
+  </div>
+</div>
 
 Since we were stuck at home due to the pandemic, [Omnibase](https://github.com/ERC-BPGC/omnibase) was released to test our algorithms in simulation.
 
