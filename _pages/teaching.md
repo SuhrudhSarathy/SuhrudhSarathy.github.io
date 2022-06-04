@@ -2,6 +2,8 @@
 permalink: /teaching/
 title: "Teaching"
 ---
+## [FDCM, Software for Embedded Systems, Dept. of CSIS, BITS Goa](/files/pdf/fdcm.pdf)
+I was a First Degree Teaching Assistant for a Master’s course on Software for Embedded Systems by the Dept. of CSIS,BITS Goa. I conducted lab sessions on Python Programming, Arduino Programming and Robot Operating System. Designed and Evaluated final course Projects and helped in conducting various evaluative components throughout the course.
 
 ## Introduction to Aviation and Aerial Robotics, CTE 2021
 I was a part of the Instruction group and taught the Aerial Robotics part of the course, where I covered the basics of Robotics, Path Planning, Perception and State Estimation. I was responisble for giving out and assigning assignments for the same. I also taught the basics of Civil Aviation.
