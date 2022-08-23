@@ -10,7 +10,7 @@ redirect_from:
 
 Hello! I am Suhrudh. I am a third year Undergraduate student at [BITS Pilani, KK Birla Goa Campus](https://www.bits-pilani.ac.in/goa/) with a major in Electrical Engineering and a minor in Physics. I am a Robotics Enthusiast and my primary interests lie in __Path Planning__ and __State Estimation__.  I am also interested in learning-based algorithms for Robot Path Planning and Contol.
 
-I am currently an intern at [Black Coffee Robotics](https://blackcoffeerobotics.com). I previously interned with [Ottonomy](https://www.ottonomy.io) where I worked on developing motion planning alogrithms for effective Urban Navigation in 2.5D Environments. I have previosly interned at [Peppermint](https://www.getpeppermint.co) where I worked on developing a __Graphical User Interface__ for Robots and integrating it with ROS2. I also worked on __Local Planning using Motion Primitive based Planner__. I will be doing a project on __Control and Guidance of Mini Drone__ under [Prof. Rakesh R Warier](https://www.bits-pilani.ac.in/goa/rakeshw/profile) from the Semester II 2021-2022 (Jan - May). I will be joining [Stochastic Robotics Lab](http://www.stochlab.com) as a Research Intern for my Undergraduate Thesis and will be working on Path Planning for multiple robots under time-varying costs.
+I am currently a Research Intern at [Robert Bosch Center for Cyber Physical Systems](https://cps.iisc.ac.in) as a Research Intern for my Undergraduate Thesis co-supervised by Prof. Shishir Kolathaya and Prof. Debashish Gosh. I am currently working on developing navigation algorithms for Heterogenous swarm of robots to be used in Agriculture. I previously interned at [Black Coffee Robotics](https://blackcoffeerobotics.com). I previously interned with [Ottonomy](https://www.ottonomy.io) where I worked on developing motion planning alogrithms for effective Urban Navigation in 2.5D Environments. I have previosly interned at [Peppermint](https://www.getpeppermint.co) where I worked on developing a __Graphical User Interface__ for Robots and integrating it with ROS2. I also worked on __Local Planning using Motion Primitive based Planner__. I will be doing a project on __Control and Guidance of Mini Drone__ under [Prof. Rakesh R Warier](https://www.bits-pilani.ac.in/goa/rakeshw/profile) from the Semester II 2021-2022 (Jan - May). 
 
 I was the __President__ of [Center for Techincal Education](https://bpgc-cte.org), BITS Goa. I lead a motivated team of 40+ people and conduct courses, workshops, events for the students of BITS Goa. I was also a Senior Core Member of __Electronics and Robotics Club__ and the __Aerodynamics Club__ of BITS Goa.
 
@@ -18,6 +18,7 @@ Here are my [projects](https://suhrudhsarathy.github.io/projects/), my [teaching
 
 ## News
 - __01-07-2022__  :   Will be starting Research Internship under Prof. Shishir Kolathaya.
+- __23-05-2022__  :   Completed Internship with Black Coffee Robotics
 - __23-03-2022__  :   Started Internship with Black Coffee Robotics.
 - __17-1-2022__   :   Work on Guidance and Control of Mini Drone under Prof. Rakesh Warier at BITS Goa.
 - __3-12-2021__   :   Ended Internship with Ottonomy 
