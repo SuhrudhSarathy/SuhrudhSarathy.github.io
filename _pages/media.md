@@ -8,9 +8,11 @@ redirect_from:
   - /med
 ---
 
+# Images
 ## Quark Display 2022
 {% include gallery.html folder="images/media" %}
 
+# Videos
 ## Indoor Autonomous Drone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DmOBHXSXXAQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
