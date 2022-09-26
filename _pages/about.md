@@ -8,21 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I am Suhrudh. I am a third year Undergraduate student at [BITS Pilani, KK Birla Goa Campus](https://www.bits-pilani.ac.in/goa/) with a major in Electrical Engineering and a minor in Physics. I am a Robotics Enthusiast and my primary interests lie in __Path Planning__ and __State Estimation__.  I am also interested in learning-based algorithms for Robot Path Planning and Contol.
+Hello! I am Suhrudh. I am a Final year Undergraduate student at [BITS Pilani, KK Birla Goa Campus](https://www.bits-pilani.ac.in/goa/) pursuing a major in Electrical Engineering and a minor in Physics. I am a Robotics Enthusiast with primary interests in __Motion Planning__ for Autonomous Robots.
 
-I am currently a Research Intern at [Robert Bosch Center for Cyber Physical Systems](https://cps.iisc.ac.in) as a Research Intern for my Undergraduate Thesis co-supervised by Prof. Shishir Kolathaya and Prof. Debashish Gosh. I am currently working on developing navigation algorithms for Heterogenous swarm of robots to be used in Agriculture. I previously interned at [Black Coffee Robotics](https://blackcoffeerobotics.com). I previously interned with [Ottonomy](https://www.ottonomy.io) where I worked on developing motion planning alogrithms for effective Urban Navigation in 2.5D Environments. I have previosly interned at [Peppermint](https://www.getpeppermint.co) where I worked on developing a __Graphical User Interface__ for Robots and integrating it with ROS2. I also worked on __Local Planning using Motion Primitive based Planner__. I will be doing a project on __Control and Guidance of Mini Drone__ under [Prof. Rakesh R Warier](https://www.bits-pilani.ac.in/goa/rakeshw/profile) from the Semester II 2021-2022 (Jan - May). 
+I am currently working at [Robert Bosch Center for Cyber Physical Systems](https://cps.iisc.ac.in) as a Research Intern for my Undergraduate Thesis co-supervised by [Prof. Shishir Kolathaya](https://www.shishirny.com/) and [Prof. Debashish Gosh](http://aero.iisc.ac.in/people/debasish-ghose/). I am working on developing navigation algorithms for Heterogenous swarm of robots in Agriculture settings.
+
+Previously, I interned at [Peppermint Robots](https://getpeppermint.co/), [Ottonomy](https://ottonomy.io/), [Black Coffee Robotics](https://www.blackcoffeerobotics.com/) where my work primarily focussed on developing navigation algorithms and simulation techniques. I also had the privelage to work under [Prof. Rakesh Warier](https://bits-pilani.irins.org/profile/230526) for a semester project.
 
 I was the __President__ of [Center for Techincal Education](https://bpgc-cte.org), BITS Goa. I lead a motivated team of 40+ people and conduct courses, workshops, events for the students of BITS Goa. I was also a Senior Core Member of __Electronics and Robotics Club__ and the __Aerodynamics Club__ of BITS Goa.
 
 Here are my [projects](https://suhrudhsarathy.github.io/projects/), my [teaching](https://suhrudhsarathy.github.io/teaching/) experience and my [CV](https://suhrudhsarathy.github.io/exp/)
-
-## News
-- __01-07-2022__  :   Will be starting Research Internship under Prof. Shishir Kolathaya.
-- __23-05-2022__  :   Completed Internship with Black Coffee Robotics
-- __23-03-2022__  :   Started Internship with Black Coffee Robotics.
-- __17-1-2022__   :   Work on Guidance and Control of Mini Drone under Prof. Rakesh Warier at BITS Goa.
-- __3-12-2021__   :   Ended Internship with Ottonomy 
-- __3-09-2021__   :   Started Internship with Ottonomy
-- __31-07-2021__  :   Ended Summer Internship with Peppermint
-- __31-05-2021__  :   Started Summer Internship with Peppermint
-
