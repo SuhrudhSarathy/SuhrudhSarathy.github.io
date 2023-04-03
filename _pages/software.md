@@ -32,6 +32,10 @@ toc: false
 
 These are some of the projects that I have been a part of. All my projects can be found [here](https://github.com/SuhrudhSarathy)
 
+# Xiron
+
+This [package](https://github.com/SuhrudhSarathy/xiron) is aimed to a be a simple 2D simulator written entirely in Rust. Work is in progress. Any contributions are welcome.
+
 # Drone Navigation
 
 I developed a ROS navigation stack for an Autonomous drone using RotorS Simulator. Major focus of this project was on implementing RRT (Rapidly exploring Random Trees) in a 3D unmapped environment. To percieve the environment, I used Point Cloud data from the Depth Camera and processed it using Point Cloud Library.
