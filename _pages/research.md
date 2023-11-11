@@ -1,7 +1,7 @@
 ---
 layout: archive
-permalink: /posts/
-title: "Blog posts"
+permalink: /research/
+title: "Research"
 author_profile: true
 header:
   og_image: "posts/spatial-sql/gadm_wkt_filter_buffer-1.png"
