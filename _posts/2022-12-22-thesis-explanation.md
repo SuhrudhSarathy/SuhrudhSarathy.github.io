@@ -13,4 +13,5 @@ Documents regarding my thesis.
 
 <!--more-->
 
-Link for the [PDF](files/pdf/Thesis.pdf).
+Link for the [PDF](/files/pdf/Thesis.pdf).
+Link for [Final presentation](/files/pdf/Thesis_presentation.pdf)
